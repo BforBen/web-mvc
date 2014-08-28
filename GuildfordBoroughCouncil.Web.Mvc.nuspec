@@ -2,16 +2,17 @@
 <package>
   <metadata>
     <id>GuildfordBoroughCouncil.Web.Mvc</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>Ben Cheetham</authors>
     <owners>Guildford Borough Council</owners>
     <licenseUrl>https://github.com/GuildfordBC/web-mvc/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/GuildfordBC/web-mvc</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Extensions for ASP.NET MVC projects.</description>
-    <releaseNotes>Initial release.</releaseNotes>
+    <releaseNotes>Restored Elmah error handling attribute.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <dependencies>
+      <dependency id="elmah.corelibrary" />
       <dependency id="EntityFramework" />
       <dependency id="GuildfordBoroughCouncil.Linq" />
       <dependency id="Microsoft.AspNet.Mvc" />
