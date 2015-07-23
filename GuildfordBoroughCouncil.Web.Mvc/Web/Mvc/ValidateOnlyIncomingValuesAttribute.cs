@@ -1,12 +1,10 @@
-﻿using System;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Linq;
 
 namespace GuildfordBoroughCouncil.Web.Mvc
 {
     // Source: http://blog.stevensanderson.com/2010/02/19/partial-validation-in-aspnet-mvc-2/
-    public class ValidateOnlyIncomingValuesAttribute : System.Web.Mvc.ActionFilterAttribute
+    public class ValidateOnlyIncomingValuesAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {

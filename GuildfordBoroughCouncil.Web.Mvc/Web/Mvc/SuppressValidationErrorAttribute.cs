@@ -1,11 +1,8 @@
-﻿using System;
-using System.Web;
-using System.Web.Mvc;
-using System.Linq;
+﻿using System.Web.Mvc;
 
 namespace GuildfordBoroughCouncil.Web.Mvc
 {
-    public class SuppressValidationErrorAttribute : System.Web.Mvc.ActionFilterAttribute
+    public class SuppressValidationErrorAttribute : ActionFilterAttribute
     {
         public string For { get; set; }
 
