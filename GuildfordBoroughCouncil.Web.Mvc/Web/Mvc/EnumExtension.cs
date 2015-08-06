@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 
-namespace GuildfordBoroughCouncil.Linq
+namespace GuildfordBoroughCouncil.Web.Mvc
 {
     public static partial class EnumHelper
     {
